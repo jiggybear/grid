@@ -29,19 +29,9 @@ body {
 	  #66bd7f 0.5em, 
 	  #222 0em, 
 	  #222 1em);
-	/*
-	background: repeating-linear-gradient(
-	  -55deg,
-	  #222222,
-	  #222222 10px,
-	  #333333 10px,
-	  #333333 20px
-	);
-		*/
 	position:absolute;
 	bottom:0px;
 	width:100%;
-
 }
 
 #left {
@@ -59,5 +49,20 @@ body {
 	width:77%;
 	box-shadow:1px 1px 0 0, 0 1px 5px black;
 }
-color: rgb(102, 189, 127);
 
+.box {
+	background-color:teal;
+	display:inline-block;
+	margin:1px 1px 0 0;
+	padding:0 0 0 0;
+}
+#grid-frame {
+	margin:50px auto;
+	width:500px;
+	height:500px;
+	font-size:0;
+}
+button {
+	margin:10px auto;
+	display:block;
+}
